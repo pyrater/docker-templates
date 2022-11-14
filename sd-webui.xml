@@ -43,7 +43,7 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <Requires/>
   <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/appdata/sd-webui/sd/outputs" Mode="rw" Description="Location to output images" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/outputs</Config>
   <Config Name="/sd/user_data" Target="/sd/user_data" Default="/mnt/user/appdata/sd-webui/sd/user_data" Mode="rw" Description="Location of user data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/user_data</Config>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="ALL" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ALL</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
   <Config Name="/sd/models" Target="/sd/models" Default="/mnt/user/appdata/sd-webui/sd/models" Mode="rw" Description="Location of diffusion models" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/models</Config>
   <Config Name="WebUI Port" Target="8501" Default="8501" Mode="tcp" Description="Streamlit WebUI" Type="Port" Display="always" Required="false" Mask="false">8501</Config>
 </Container>
