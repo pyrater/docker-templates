@@ -43,6 +43,6 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <Requires/>
   <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/dockers/sd-webui/sd/outputs" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/outputs</Config>
   <Config Name="/sd/user_data" Target="/sd/user_data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/user_data</Config>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">GPU-c35c7dfe-9025-2c98-60e2-9b4f39bb1a45</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ALL</Config>
   <Config Name="/sd/models" Target="/sd/models" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/models</Config>
 </Container>
