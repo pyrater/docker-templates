@@ -33,7 +33,7 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <Category>Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:8501]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/pyrater/docker-templates/raw/master/hlky.png</Icon>
+  <Icon>https://github.com/pyrater/docker-templates/raw/master/sygil.png</Icon>
   <ExtraParams>--runtime=nvidia</ExtraParams>
   <PostArgs/>
   <CPUset/>
