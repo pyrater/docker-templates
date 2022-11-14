@@ -41,8 +41,8 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/dockers/sd-webui/sd/outputs" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/outputs</Config>
-  <Config Name="/sd/user_data" Target="/sd/user_data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/user_data</Config>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ALL</Config>
-  <Config Name="/sd/models" Target="/sd/models" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/dockers/sd-webui/sd/models</Config>
+  <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/appdata/sd-webui/sd/outputs" Mode="rw" Description="Location to output images" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/outputs</Config>
+  <Config Name="/sd/user_data" Target="/sd/user_data" Default="/mnt/user/appdata/sd-webui/sd/user_data" Mode="rw" Description="Location of user data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/user_data</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="ALL" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ALL</Config>
+  <Config Name="/sd/models" Target="/sd/models" Default="/mnt/user/appdata/sd-webui/sd/models" Mode="rw" Description="Location of diffusion models" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/models</Config>
 </Container>
