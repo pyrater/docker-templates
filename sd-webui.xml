@@ -3,7 +3,7 @@
   <Name>sd-webui</Name>
   <Repository>hlky/sd-webui:latest</Repository>
   <Registry>https://hub.docker.com/r/hlky/sd-webui</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -45,4 +45,5 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <Config Name="/sd/user_data" Target="/sd/user_data" Default="/mnt/user/appdata/sd-webui/sd/user_data" Mode="rw" Description="Location of user data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/user_data</Config>
   <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="ALL" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ALL</Config>
   <Config Name="/sd/models" Target="/sd/models" Default="/mnt/user/appdata/sd-webui/sd/models" Mode="rw" Description="Location of diffusion models" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sd-webui/sd/models</Config>
+  <Config Name="WebUI Port" Target="8501" Default="8501" Mode="tcp" Description="Streamlit WebUI" Type="Port" Display="always" Required="false" Mask="false">8501</Config>
 </Container>
