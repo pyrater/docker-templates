@@ -41,9 +41,10 @@ volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outp
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/appdata/sygil-webui/sd/outputs" Mode="rw" Description="Location to output images" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sygil-webui/sd/outputs</Config>
-  <Config Name="/sd/user_data" Target="/sd/user_data" Default="/mnt/user/appdata/sygil-webui/sd/user_data" Mode="rw" Description="Location of user data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sygil-webui/sd/user_data</Config>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
-  <Config Name="/sd/models" Target="/sd/models" Default="/mnt/user/appdata/sygil-webui/sd/models" Mode="rw" Description="Location of diffusion models" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/sygil-webui/sd/models</Config>
-  <Config Name="WebUI Port" Target="8501" Default="8501" Mode="tcp" Description="Streamlit WebUI" Type="Port" Display="always" Required="false" Mask="false">8501</Config>
+  <Config Name="/sd/outputs" Target="/sd/outputs" Default="/mnt/user/appdata/sygil-webui/sd/outputs" Mode="rw" Description="Location to output images" Type="Path" Display="always" Required="ture" Mask="false">/mnt/user/appdata/sygil-webui/sd/outputs</Config>
+  <Config Name="/sd/user_data" Target="/sd/user_data" Default="/mnt/user/appdata/sygil-webui/sd/user_data" Mode="rw" Description="Location of user data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sygil-webui/sd/user_data</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="all" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">all</Config>
+  <Config Name="/sd/models" Target="/sd/models" Default="/mnt/user/appdata/sygil-webui/sd/models" Mode="rw" Description="Location of diffusion models" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sygil-webui/sd/models</Config>
+  <Config Name="/sd/configs/webui/userconfig_streamlit.yaml" Target="/sd/configs/webui/usercofnig_streamlit.yaml" Default="/mnt/user/appdata/sygil-webui/sd/configs/userconfig_streamlit.yaml" Mode="rw" Description="Location of persistent Configuration file" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sygil-webui/sd/configs/userconfig_streamlit.yaml</Config>
+  <Config Name="WebUI Port" Target="8501" Default="8501" Mode="tcp" Description="Streamlit WebUI" Type="Port" Display="always" Required="true" Mask="false">8501</Config>
 </Container>
