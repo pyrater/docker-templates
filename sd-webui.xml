@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Sygil-webui</Name>
   <Repository>hlky/sd-webui:latest</Repository>
-  <Registry>https://hub.docker.com/r/hlky/sd-webui</Registry>
+  <Registry>https://hub.docker.com/r/tukirito/sygil-webui</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
