@@ -27,7 +27,6 @@ RealESRGAN: RealESRGAN_x4plus and RealESRGAN_x4plus_anime_6B&#xD;
 Latent Diffusion Super Resolution (LDSR)&#xD;
 Notes:&#xD;
 &#xD;
-There is also hlky/sd-webui:runpod (vs :latest under the Repository tag) which includes a lot of models already
 Most models will unload when you use something else, atm there is a config option for img2txt.keep_all_models_loaded: False if you set this to True img2txt models (the CLIP ones, BLIP stays loaded unless you have optimized mode available) will all stay loaded, by default if a model that is loaded is no longer selected it will be unloaded&#xD;
 volume path now mirrors the repo so is /sd/outputs instead of /sd/user_data/outputs</Overview>
   <Category>Status:Beta</Category>
